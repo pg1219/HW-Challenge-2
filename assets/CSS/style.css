@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffff;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: cornflowerblue;
+    /* position: fixed; */
+}
+
+#h1 {
+    color: #ffff;
+    background-color: #ca3939;
+   padding: 20px;
+   text-align: left;
+   font-size: 48px;
+  
+}
+
+
+
+li {
+    display: inline;
+    text-align: Center;
+    list-style-type: none;
+    
+}
+
+a {
+    color: #ca3939;
+    font-size: 32px;
+    font-family: monospace;
+}
