@@ -45,7 +45,7 @@ li {
     
 }
 
-a {
+nav a {
     color: #ffff;
     font-size: 32px;
     font-family: monospace;
@@ -53,7 +53,8 @@ a {
 }
 
 nav {
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
     margin: 15px 80px 0px 80px;
     
 }
@@ -63,10 +64,9 @@ main {
 }  
 
 .section {
-    display:inline-flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 150px 30px 120px;
+    display: flex;
+    align-items: flex-start;
+    padding: 30px 50px 30px 50px;
 
 }
 
@@ -76,8 +76,7 @@ h2 {
 }
 
 .container {
-    border-right: solid 2.5px cornflowerblue;
-    padding: 25px 75px 25px 0;
+   padding: 25px 75px 25px 0;
     font-size: 250%;
     white-space: nowrap;
 }
@@ -86,6 +85,7 @@ section p {
     margin-top: 20px;
     padding-left: 50px;
     font-size: 150%;
+    border-left: solid 2.5px cornflowerblue;
 }
 
 .work-container {
@@ -95,8 +95,37 @@ section p {
     font-size: 250%;
 }
 
-.image {
-    display: flex;
-  align-items: center;
+
+.image img{
+    position: relative;
+    max-width: 100%;
+    height: auto;
 }
 
+.text-box {
+position: relative;
+top: -45px;
+right: -15px;
+background-color:#ca3939;
+color:#ffff;
+padding: 7px 4px;
+font-family: monospace;
+border-style: none;
+font-size: 20px;
+width: 130px;
+}
+
+.contact-container {
+    padding: 25px 0px 25px 0;
+    margin-right: 50px;
+    font-size: 250%;
+    white-space: nowrap;}
+
+.section-div {
+    width: 100%;
+     border-left: solid 2.5px cornflowerblue;
+    font-size: 150%;
+    padding: 30px 50px 30px 50px;
+    text-decoration: underline;
+    color: #ca3939;
+}
