@@ -130,6 +130,21 @@ width: 130px;
 strong {
     text-decoration: underline;
 }
+
 #phone {
     text-decoration: none;
+}
+
+div a:link,
+div a:visited {
+    color:navy;    
+}
+
+div a strong:hover {
+    color: cornflowerblue;
+}
+
+div li {
+    display: flex;
+   flex-direction: row;
 }
