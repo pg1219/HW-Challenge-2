@@ -33,8 +33,8 @@ body {
     display: flex;
     position: relative;
     float: right;
-    border-radius: 15px;
-    margin: 15px 60px;
+    border-radius: 150px;
+    margin: 15px 30px;
     height: 120px;
 }
 
@@ -88,18 +88,28 @@ section p {
 }
 
 .work-container {
+    display: flex;
     border-right: solid 2.5px cornflowerblue;
     padding: 25px 155px 25px 0;
     margin-right: 50px;
     font-size: 250%;
+    flex-wrap: wrap;
 }
 
 
 .image img{
+    display: flex;
     position: relative;
+    flex-grow: 2;
     max-width: 100%;
     height: auto;
+    min-width: 350px;
 }
+
+.coming-soon {
+    display: inline-block
+}
+
 
 .text-box {
 position: relative;
@@ -120,6 +130,7 @@ width: 130px;
     white-space: nowrap;}
 
 .section-div {
+    display: flex;
     width: 100%;
      border-left: solid 2.5px cornflowerblue;
     font-size: 150%;
@@ -133,6 +144,7 @@ strong {
 
 #phone {
     text-decoration: none;
+    width: 200px;
 }
 
 div a:link,
@@ -146,5 +158,7 @@ div a strong:hover {
 
 div li {
     display: flex;
-   flex-direction: row;
+    justify-content: flex-end;
+   margin-right: 15%;
 }
+
