@@ -96,6 +96,12 @@ section p {
     flex-wrap: wrap;
 }
 
+#second-row {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
 
 .image img{
     display: flex;
@@ -107,7 +113,7 @@ section p {
 }
 
 .coming-soon {
-    display: inline-block
+    display: inline-block;
 }
 
 
