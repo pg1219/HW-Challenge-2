@@ -26,4 +26,4 @@ Repo: https://github.com/pg1219/HW-Challenge-2
 
 Preview image of deployed application
 
-![alt](./assets/images/mockup.png)
+![alt](./assets/Images/mockup.png)
